@@ -20,8 +20,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 # 🔐 CONFIGURAÇÕES FIXAS
 # =======================
 
-USUARIO_SEI = "marlon.carvalho"  # ← ALTERE AQUI SEU USUÁRIO
-SENHA_SEI = "Y4mipassword@"     # ← ALTERE AQUI SUA SENHA  
+USUARIO_SEI = "xxxxxx"  # ← ALTERE AQUI SEU USUÁRIO
+SENHA_SEI = "xxxxxxx"     # ← ALTERE AQUI SUA SENHA  
 NUMERO_MODELO = "17775984"       # Número do modelo fixo
 
 # Configurar logging SEM EMOJIS para Windows
@@ -1010,4 +1010,5 @@ if __name__ == "__main__":
         exit(0)
     else:
         print("\n❌ Ocorreram erros durante o processo.")
+
         exit(1) 
